@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Panorama Viewer Plugin Demo</title>
+<link href='panorama_viewer.css' rel='stylesheet' type='text/css'>
+
+
+
+</head>
+<body>
+
+<div class="panorama"> <img src="demo_photo.jpg">
+</div>
+
+</body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.panorama_viewer.js"></script>
+
+
+<script>
+	  $(window).load(function(){
+      $(".panorama").panorama_viewer({
+        repeat: true
+      });
+		});
+		
+	  	</script>
+</html>
